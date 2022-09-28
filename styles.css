@@ -1,0 +1,26 @@
+body {
+   background-color: violet;
+}
+
+h1 {
+   margin-top: 25rem;
+   text-align: center;
+}
+
+h1::after {
+   border-right: 2px solid black;
+   content: '';
+   position: relative;
+   left: 10px;
+   animation: blink 0.6s infinite;
+}
+
+@keyframes blink {
+   0% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}
