@@ -1,0 +1,3 @@
+# TextTypeJS
+
+![Screenshot](texttype.gif)
